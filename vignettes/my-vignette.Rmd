@@ -33,7 +33,9 @@ This package also includes the data set called `cranes`. This is a simple data s
 ```{r examples, echo = T, eval = T, fig.width=6,fig.height = 4}
 library(mypackage)
 add(100, 50) # Adds the two numbers and gives the output
-subtract(100, 50) # Subtracts the second number from the first 
+subtract(100, 50) # Subtracts the second number from the first
+multiply(100, 50) # Multiplies the first number from the second
+divide(100, 50) #Divides the first number from the second. Note; it will not devide by 0
 hello() # Gives the message "hello world"
 
 # The following is an example for ggraph:
@@ -91,3 +93,4 @@ Also a quote using `>`:
 > "He who gives up [code] safety for [code] speed deserves neither."
 ([via](https://twitter.com/hadleywickham/status/504368538874703872))
 
+devtools::install(build_vignetts=TRUE)
